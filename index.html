@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GYMY</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.min.css" />
+  </head>
+  <body class="font-opensans bg-[#151515] antialiased">
+    <!-- header start -->
+
+    <header>
+      <nav class="dark:bg-gray-900">
+        <div
+          class="max-w-[1680px] flex flex-wrap items-center justify-between mx-auto px-4 py-5"
+        >
+          <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <img src="./img/gymy.webp" class="h-8 md:h-12" alt="book verce" />
+          </a>
+          <button
+            data-collapse-toggle="navbar-default"
+            type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-default"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-5 h-5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 17 14"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15"
+              />
+            </svg>
+          </button>
+          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+            <ul
+              class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-transparent md:flex-row md:space-x-12 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-[#151515] dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+            >
+              <li class="relative">
+                <a
+                  href="#hero"
+                  class="block py-2 px-3 text-white font-montserrat bg-[#529caf] rounded md:bg-transparent md:text-[#ffffff] md:p-0 dark:text-white md:dark:text-[#ffffff] border-b-2"
+                  aria-current="page"
+                >
+                  Home
+                  <span
+                    class="absolute left-0 bottom-0 h-0.5 bg-white transition-all duration-300 ease-in-out w-full"
+                  ></span>
+                </a>
+              </li>
+
+              <li class="relative">
+                <a
+                  href="#hero"
+                  class="block py-2 px-3 text-white font-montserrat bg-[#529caf] rounded md:bg-transparent md:text-[#ffffff] md:p-0 dark:text-white md:dark:text-[#ffffff] border-b-2 border-transparent hover:border-transparent group"
+                  aria-current="page"
+                >
+                  About
+                  <span
+                    class="absolute left-0 bottom-0 w-0 h-0.5 bg-white transition-all duration-300 ease-in-out group-hover:w-full"
+                  ></span>
+                </a>
+              </li>
+              <li class="relative">
+                <a
+                  href="#hero"
+                  class="block py-2 px-3 text-white font-montserrat bg-[#529caf] rounded md:bg-transparent md:text-[#ffffff] md:p-0 dark:text-white md:dark:text-[#ffffff] border-b-2 border-transparent hover:border-transparent group"
+                  aria-current="page"
+                >
+                  Services
+                  <span
+                    class="absolute left-0 bottom-0 w-0 h-0.5 bg-white transition-all duration-300 ease-in-out group-hover:w-full"
+                  ></span>
+                </a>
+              </li>
+              <li class="relative">
+                <a
+                  href="#hero"
+                  class="block py-2 px-3 text-white font-montserrat bg-[#529caf] rounded md:bg-transparent md:text-[#ffffff] md:p-0 dark:text-white md:dark:text-[#ffffff] border-b-2 border-transparent hover:border-transparent group"
+                  aria-current="page"
+                >
+                  Packedge
+                  <span
+                    class="absolute left-0 bottom-0 w-0 h-0.5 bg-white transition-all duration-300 ease-in-out group-hover:w-full"
+                  ></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- header end -->
+    <!-- main start -->
+    <main>
+      <!-- hero start -->
+      <section class="relative py-[20px] md:py-[80px]" id="hero">
+        <div class="hidden md:flex overflow-hidden">
+          <div class="marquee flex items-center gap-[3vw] px-[2vw]">
+            <h1
+              class="text-[10vw] xl:text-[14vw] uppercase text-white font-montserrat font-bold flex-shrink-0 whitespace-nowrap leading-none"
+            >
+              Unleash Your Power Now
+            </h1>
+          </div>
+          <div class="marquee flex items-center gap-[3vw] px-[2vw]">
+            <h1
+              class="text-[10vw] xl:text-[14vw] uppercase text-white font-montserrat font-bold flex-shrink-0 whitespace-nowrap leading-none"
+            >
+              Unleash Your Power Now
+            </h1>
+          </div>
+          <div class="marquee flex items-center gap-[3vw] px-[2vw]">
+            <h1
+              class="text-[10vw] xl:text-[14vw] uppercase text-white font-montserrat font-bold flex-shrink-0 whitespace-nowrap leading-none"
+            >
+              Unleash Your Power Now
+            </h1>
+          </div>
+          <div class="marquee flex items-center gap-[3vw] px-[2vw]">
+            <h1
+              class="text-[10vw] xl:text-[14vw] uppercase text-white font-montserrat font-bold flex-shrink-0 whitespace-nowrap leading-none"
+            >
+              Unleash Your Power Now
+            </h1>
+          </div>
+          <div class="marquee flex items-center gap-[3vw] px-[2vw]">
+            <h1
+              class="text-[10vw] xl:text-[14vw] uppercase text-white font-montserrat font-bold flex-shrink-0 whitespace-nowrap leading-none"
+            >
+              Unleash Your Power Now
+            </h1>
+          </div>
+        </div>
+
+        <div class="max-w-[1680px] mx-auto p-4">
+          <div class="grid grid-cols-12 gap-4">
+            <!-- content -->
+            <div
+              class="col-span-12 md:col-span-4 flex md:justify-center md:items-start flex-col order-2 md:order-1 pt-5 md:pt-0"
+            >
+              <h2
+                class="text-white text-2xl md:text-3xl lg:text-4xl font-montserrat font-semibold md:max-w-[400px] md:text-balance text-center md:text-start pb-4"
+              >
+                Conquer every GYMY, fuel the fire, transform your strength
+                journey.
+              </h2>
+              <button
+                class="relative px-7 py-3 mt-4 text-white text-lg font-montserrat font-bold border-b-2 border-transparent hover:border-transparent group"
+              >
+                Join Now
+                <span
+                  class="absolute left-0 bottom-0 w-0 h-0.5 bg-white transition-all duration-300 ease-in-out group-hover:w-full"
+                ></span>
+              </button>
+            </div>
+            <!-- video -->
+            <div
+              class="col-span-12 md:col-span-8 flex justify-end order-1 md:order-2"
+            >
+              <div class="flex justify-center md:justify-end">
+                <video
+                  src="./img/pexels-ron-lach-2-540p.mp4"
+                  muted
+                  autoplay
+                  loop
+                  class="w-full h-full"
+                ></video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- hero end -->
+      <!-- brand start -->
+      <section class="py-[40px] md:py-[80px]" id="brand">
+        <div class="max-w-[1680px] mx-auto px-4">
+          <div
+            class="flex flex-col md:flex-row justify-between items-center gap-10 md:gap-20"
+          >
+            <!-- items -->
+            <div class="grid grid-cols-6 gap-2 xl:gap-4 order-2 md:order-1">
+              <div
+                class="col-span-3 md:col-span-2 xl:col-span-1 opacity-70 hover:opacity-100"
+              >
+                <img src="./img/part-gym-3-copyright.webp" alt="" />
+              </div>
+              <div
+                class="col-span-3 md:col-span-2 xl:col-span-1 opacity-70 hover:opacity-100"
+              >
+                <img src="./img/part-gym-3-copyright.webp" alt="" />
+              </div>
+              <div
+                class="col-span-3 md:col-span-2 xl:col-span-1 opacity-70 hover:opacity-100"
+              >
+                <img src="./img/part-gym-3-copyright.webp" alt="" />
+              </div>
+              <div
+                class="col-span-3 md:col-span-2 xl:col-span-1 opacity-70 hover:opacity-100"
+              >
+                <img src="./img/part-gym-3-copyright.webp" alt="" />
+              </div>
+              <div
+                class="col-span-3 md:col-span-2 xl:col-span-1 opacity-70 hover:opacity-100"
+              >
+                <img src="./img/part-gym-3-copyright.webp" alt="" />
+              </div>
+              <div
+                class="col-span-3 md:col-span-2 xl:col-span-1 opacity-70 hover:opacity-100"
+              >
+                <img src="./img/part-gym-3-copyright.webp" alt="" />
+              </div>
+            </div>
+            <!-- content -->
+            <div class="flex justify-end order-1 md:order-2">
+              <h2
+                class="text-xl md:text-2xl xl:text-3xl text-white font-montserrat font-semibold"
+              >
+                Check our best partners
+              </h2>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- brand end -->
+      <!-- aboutUs start -->
+      <section class="py-[40px] md:py-[80px]" id="about-us">
+        <div class="max-w-[1680px] mx-auto p-4">
+          <div class="flex md:flex-row flex-col gap-10 md:gap-20">
+            <!-- img -->
+            <div class="w-full md:w-1/2 relative">
+              <div class="w-[90%] z-1">
+                <img src="./img/closeup-copyrig.jpg" alt="" class="" />
+              </div>
+              <div
+                class="flex justify-end z-10 absolute top-1/2 right-0 transform -translate-y-1/2"
+              >
+                <img
+                  src="./img/sport-bodybuilding-copyright.jpg"
+                  alt=""
+                  class="w-[60%] md:w-[70%] lg:w-[80%] xl:w-[100%]"
+                />
+              </div>
+            </div>
+            <!-- content -->
+            <div class="w-full md:w-1/2 flex items-center">
+              <div class="max-w-[500px]">
+                <h2
+                  class="text-white font-montserrat text-lg uppercase font-medium"
+                >
+                  about
+                </h2>
+                <h3
+                  class="text-white font-montserrat text-5xl md:text-5xl xl:text-7xl font-semibold pt-2 pb-6"
+                >
+                  More than a workout, it’s a lifestyle
+                </h3>
+                <p class="text-[#CCCCCC] font-opensans pb-5 max-w-[400px]">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque.
+                </p>
+                <a
+                  href="#"
+                  class="relative inline-flex items-center justify-center font-bold font-montserrat px-7 py-3 text-[#AFFF00] border-2 bg-[#AFFF00] border-[#AFFF00] hover:border-[#FDCB6E] group overflow-hidden cursor-pointer"
+                >
+                  <span
+                    class="absolute inset-0 w-64 h-0 transition-all duration-300 transform origin-center rotate-45 -translate-x-20 bg-[#FDCB6E] top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease-in-out"
+                  ></span>
+                  <span
+                    class="relative text-[#151515] transition-colors duration-300 ease-in-out"
+                    >Read More</span
+                  >
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- aboutUs end -->
+      <!-- service start -->
+      <section class="py-[40px] md:py-[80px]" id="service">
+        <div class="max-w-[1200px] mx-auto p-4">
+          <div class="grid grid-cols-3 gap-4">
+            <div
+              class="col-span-3 md:col-span-1 flex flex-col justify-center text-center group p-5"
+            >
+              <a href="#" class="block w-full h-full">
+                <img
+                  src="./img/gym-lap-1.svg"
+                  alt=""
+                  class="w-[85%] mx-auto pb-5"
+                />
+                <h2 class="text-[#CCCCCC] text-base">Services</h2>
+                <h3
+                  class="text-white text-xl xl:text-2xl font-montserrat font-semibold pt-2 pb-3"
+                >
+                  Classic Packedge
+                </h3>
+                <p class="text-[#CCCCCC] pb-5">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                  quidem
+                </p>
+                <div
+                  class="text-white w-14 h-14 bg-[#272727] group-hover:bg-[#AFFF00] rounded-full mx-auto flex justify-center items-center"
+                >
+                  <svg
+                    class="join-community-icon w-6 h-6 text-white group-hover:text-[#151515] inline-block"
+                    width="1.5em"
+                    height="1.5em"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M7 7h10v10M7 17L17 7"
+                    />
+                  </svg>
+                </div>
+              </a>
+            </div>
+            <div
+              class="col-span-3 md:col-span-1 flex flex-col justify-center text-center group p-5"
+            >
+              <a href="#" class="block w-full h-full">
+                <img
+                  src="./img/gym-lap-1.svg"
+                  alt=""
+                  class="w-[85%] mx-auto pb-5"
+                />
+                <h2 class="text-[#CCCCCC] text-base">Services</h2>
+                <h3
+                  class="text-white text-xl xl:text-2xl font-montserrat font-semibold pt-2 pb-3"
+                >
+                  Premium Packedge
+                </h3>
+                <p class="text-[#CCCCCC] pb-5">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                  quidem
+                </p>
+                <div
+                  class="text-white w-14 h-14 bg-[#272727] group-hover:bg-[#AFFF00] rounded-full mx-auto flex justify-center items-center"
+                >
+                  <svg
+                    class="join-community-icon w-6 h-6 text-white group-hover:text-[#151515] inline-block"
+                    width="1.5em"
+                    height="1.5em"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M7 7h10v10M7 17L17 7"
+                    />
+                  </svg>
+                </div>
+              </a>
+            </div>
+            <div
+              class="col-span-3 md:col-span-1 flex flex-col justify-center text-center group p-5"
+            >
+              <a href="#" class="block w-full h-full">
+                <img
+                  src="./img/gym-lap-1.svg"
+                  alt=""
+                  class="w-[85%] mx-auto pb-5"
+                />
+                <h2 class="text-[#CCCCCC] text-base">Services</h2>
+                <h3
+                  class="text-white text-xl xl:text-2xl font-montserrat font-semibold pt-2 pb-3"
+                >
+                  Gigachad Packedge
+                </h3>
+                <p class="text-[#CCCCCC] pb-5">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                  quidem
+                </p>
+                <div
+                  class="text-white w-14 h-14 bg-[#272727] group-hover:bg-[#AFFF00] rounded-full mx-auto flex justify-center items-center"
+                >
+                  <svg
+                    class="join-community-icon w-6 h-6 text-white group-hover:text-[#151515] inline-block"
+                    width="1.5em"
+                    height="1.5em"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M7 7h10v10M7 17L17 7"
+                    />
+                  </svg>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- service end -->
+      <!-- powerful start -->
+      <section class="py-[40px] md:py-[80px]" id="power">
+        <!-- top -->
+        <div class="flex overflow-hidden">
+          <div
+            class="marquee-top flex items-center gap-[3vw] px-[2vw] transform translate-x-[-100%]"
+          >
+            <h2
+              class="text-[12vw] md:text-[10vw] uppercase text-white font-montserrat font-bold flex-shrink-0 whitespace-nowrap leading-none"
+            >
+              power
+            </h2>
+            <img
+              src="./img/star-light.svg"
+              alt=""
+              class="stars min-w-[8vw] md:min-w-[5.5vw]"
+            />
+          </div>
+          <div
+            class="marquee-top flex items-center gap-[3vw] px-[2vw] transform translate-x-[-100%]"
+          >
+            <h2
+              class="text-[12vw] md:text-[10vw] uppercase text-white font-montserrat font-bold flex-shrink-0 whitespace-nowrap leading-none"
+            >
+              power
+            </h2>
+            <img
+              src="./img/star-light.svg"
+              alt=""
+              class="stars min-w-[8vw] md:min-w-[5.5vw]"
+            />
+          </div>
+          <div
+            class="marquee-top flex items-center gap-[3vw] px-[2vw] transform translate-x-[-100%]"
+          >
+            <h2
+              class="text-[12vw] md:text-[10vw] uppercase text-white font-montserrat font-bold flex-shrink-0 whitespace-nowrap leading-none"
+            >
+              power
+            </h2>
+            <img
+              src="./img/star-light.svg"
+              alt=""
+              class="stars min-w-[8vw] md:min-w-[5.5vw]"
+            />
+          </div>
+          <div
+            class="marquee-top flex items-center gap-[3vw] px-[2vw] transform translate-x-[-100%]"
+          >
+            <h2
+              class="text-[12vw] md:text-[10vw] uppercase text-white font-montserrat font-bold flex-shrink-0 whitespace-nowrap leading-none"
+            >
+              power
+            </h2>
+            <img
+              src="./img/star-light.svg"
+              alt=""
+              class="stars min-w-[8vw] md:min-w-[5.5vw]"
+            />
+          </div>
+          <div
+            class="marquee-top flex items-center gap-[3vw] px-[2vw] transform translate-x-[-100%]"
+          >
+            <h2
+              class="text-[7vw] xl:text-[10vw] uppercase text-white font-montserrat font-bold flex-shrink-0 whitespace-nowrap leading-none"
+            >
+              power
+            </h2>
+            <img
+              src="./img/star-light.svg"
+              alt=""
+              class="stars min-w-[5.5vw]"
+            />
+          </div>
+        </div>
+        <!-- bottom -->
+        <div class="flex overflow-hidden py-[2vw]">
+          <div
+            class="marquee-bottom flex items-center gap-[3vw] px-[2vw] transform translate-x-[-100%]"
+          >
+            <h2
+              class="text-[12vw] md:text-[10vw] uppercase text-white font-montserrat font-bold flex-shrink-0 whitespace-nowrap leading-none"
+            >
+              conquer
+            </h2>
+            <img
+              src="./img/star-light.svg"
+              alt=""
+              class="stars min-w-[8vw] md:min-w-[5.5vw]"
+            />
+          </div>
+          <div
+            class="marquee-bottom flex items-center gap-[3vw] px-[2vw] transform translate-x-[-100%]"
+          >
+            <h2
+              class="text-[12vw] md:text-[10vw] uppercase text-white font-montserrat font-bold flex-shrink-0 whitespace-nowrap leading-none"
+            >
+              conquer
+            </h2>
+            <img
+              src="./img/star-light.svg"
+              alt=""
+              class="stars min-w-[8vw] md:min-w-[5.5vw]"
+            />
+          </div>
+          <div
+            class="marquee-bottom flex items-center gap-[3vw] px-[2vw] transform translate-x-[-100%]"
+          >
+            <h2
+              class="text-[12vw] md:text-[10vw] uppercase text-white font-montserrat font-bold flex-shrink-0 whitespace-nowrap leading-none"
+            >
+              conquer
+            </h2>
+            <img
+              src="./img/star-light.svg"
+              alt=""
+              class="stars min-w-[8vw] md:min-w-[5.5vw]"
+            />
+          </div>
+          <div
+            class="marquee-bottom flex items-center gap-[3vw] px-[2vw] transform translate-x-[-100%]"
+          >
+            <h2
+              class="text-[12vw] md:text-[10vw] uppercase text-white font-montserrat font-bold flex-shrink-0 whitespace-nowrap leading-none"
+            >
+              conquer
+            </h2>
+            <img
+              src="./img/star-light.svg"
+              alt=""
+              class="stars min-w-[8vw] md:min-w-[5.5vw]"
+            />
+          </div>
+          <div
+            class="marquee-bottom flex items-center gap-[3vw] px-[2vw] transform translate-x-[-100%]"
+          >
+            <h2
+              class="text-[12vw] md:text-[10vw] uppercase text-white font-montserrat font-bold flex-shrink-0 whitespace-nowrap leading-none"
+            >
+              conquer
+            </h2>
+            <img
+              src="./img/star-light.svg"
+              alt=""
+              class="stars min-w-[8vw] md:min-w-[5.5vw]"
+            />
+          </div>
+          <div
+            class="marquee-bottom flex items-center gap-[3vw] px-[2vw] transform translate-x-[-100%]"
+          >
+            <h2
+              class="text-[12vw] md:text-[10vw] uppercase text-white font-montserrat font-bold flex-shrink-0 whitespace-nowrap leading-none"
+            >
+              conquer
+            </h2>
+            <img
+              src="./img/star-light.svg"
+              alt=""
+              class="stars min-w-[8vw] md:min-w-[5.5vw]"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- powerful end -->
+      <!-- workout start -->
+      <section class="py-[40px] md:py-[80px]" id="workout">
+        <div class="grid grid-cols-4 gap-0">
+          <!-- items 1 -->
+          <div
+            class="col-span-2 lg:col-span-1 bg-cover bg-center h-[35vh] sm:h-[50vh] md:h-[60vh] wordput-bg border-y-[1px] border-r-[1px] border-[#404143] group relative"
+          >
+            <a
+              href="#"
+              class="relative w-full h-full flex items-end px-5 py-6 z-20 group-hover:bg-gradient-to-t from-[#000000] to-transparent transition-all duration-500 ease-in-out bg-transparent"
+            >
+              <div class="w-full">
+                <h2 class="text-[#79797a] font-medium">Workout</h2>
+                <div class="flex justify-between items-center">
+                  <h3
+                    class="text-white text-xl md:text-3xl font-montserrat font-semibold pt-1"
+                  >
+                    Chipper
+                  </h3>
+                  <img
+                    src="./img/arrow-up-right.svg"
+                    alt=""
+                    class="w-[1.4rem] md:w-[2rem] transition-transform duration-500 ease-in-out group-hover:rotate-45 transform"
+                  />
+                </div>
+                <p class="hidden group-hover:inline-block text-white pt-4 ransition-transform duration-500 ease-in-out">
+                  Lorem ipsum dolor sit amet
+                </p>
+              </div>
+            </a>
+            <div
+              class="absolute w-full h-full bg-[#151515] top-0 left-0 transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0 z-10"
+            ></div>
+          </div>
+          <!-- items 2 -->
+          <div
+            class="col-span-2 lg:col-span-1 bg-cover bg-center h-[35vh] sm:h-[50vh] md:h-[60vh] wordput-bg border-y-[1px] lg:border-r-[1px] border-[#404143] group relative"
+          >
+            <a
+              href="#"
+              class="relative w-full h-full flex items-end px-5 py-6 z-20 group-hover:bg-gradient-to-t from-[#000000] to-transparent transition-all duration-500 ease-in-out bg-transparent"
+            >
+              <div class="w-full">
+                <h2 class="text-[#79797a] font-medium">Workout</h2>
+                <div class="flex justify-between items-center">
+                  <h3
+                    class="text-white text-xl md:text-3xl font-montserrat font-semibold pt-1"
+                  >
+                    Chipper
+                  </h3>
+                  <img
+                    src="./img/arrow-up-right.svg"
+                    alt=""
+                    class="w-[1.4rem] md:w-[2rem] transition-transform duration-500 ease-in-out group-hover:rotate-45 transform"
+                  />
+                </div>
+                <p class="hidden group-hover:inline-block text-white pt-4 ransition-transform duration-500 ease-in-out">
+                  Lorem ipsum dolor sit amet
+                </p>
+              </div>
+            </a>
+            <div
+              class="absolute w-full h-full bg-[#151515] top-0 left-0 transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0 z-10"
+            ></div>
+          </div>
+          <!-- items 3 -->
+          <div
+            class="col-span-2 lg:col-span-1 bg-cover bg-center h-[35vh] sm:h-[50vh] md:h-[60vh] wordput-bg border-b-[1px] lg:border-y-[1px] border-r-[1px] border-[#404143] group relative"
+          >
+            <a
+              href="#"
+              class="relative w-full h-full flex items-end px-5 py-6 z-20 group-hover:bg-gradient-to-t from-[#000000] to-transparent transition-all duration-500 ease-in-out bg-transparent"
+            >
+              <div class="w-full">
+                <h2 class="text-[#79797a] font-medium">Workout</h2>
+                <div class="flex justify-between items-center">
+                  <h3
+                    class="text-white text-xl md:text-3xl font-montserrat font-semibold pt-1"
+                  >
+                    Chipper
+                  </h3>
+                  <img
+                    src="./img/arrow-up-right.svg"
+                    alt=""
+                    class="w-[1.4rem] md:w-[2rem] transition-transform duration-500 ease-in-out group-hover:rotate-45 transform"
+                  />
+                </div>
+                <p class="hidden group-hover:inline-block text-white pt-4 ransition-transform duration-500 ease-in-out">
+                  Lorem ipsum dolor sit amet
+                </p>
+              </div>
+            </a>
+            <div
+              class="absolute w-full h-full bg-[#151515] top-0 left-0 transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0 z-10"
+            ></div>
+          </div>
+          <!-- items 4 -->
+          <div
+            class="col-span-2 lg:col-span-1 bg-cover bg-center h-[35vh] sm:h-[50vh] md:h-[60vh] wordput-bg border-b-[1px] lg:border-y-[1px] border-r-[1px] border-[#404143] group relative"
+          >
+            <a
+              href="#"
+              class="relative w-full h-full flex items-end px-5 py-6 z-20 group-hover:bg-gradient-to-t from-[#000000] to-transparent transition-all duration-500 ease-in-out bg-transparent"
+            >
+              <div class="w-full">
+                <h2 class="text-[#79797a] font-medium">Workout</h2>
+                <div class="flex justify-between items-center">
+                  <h3
+                    class="text-white text-xl md:text-3xl font-montserrat font-semibold pt-1"
+                  >
+                    Chipper
+                  </h3>
+                  <img
+                    src="./img/arrow-up-right.svg"
+                    alt=""
+                    class="w-[1.4rem] md:w-[2rem] transition-transform duration-500 ease-in-out group-hover:rotate-45 transform"
+                  />
+                </div>
+                <p class="hidden group-hover:inline-block text-white pt-4 ransition-transform duration-500 ease-in-out">
+                  Lorem ipsum dolor sit amet
+                </p>
+              </div>
+            </a>
+            <div
+              class="absolute w-full h-full bg-[#151515] top-0 left-0 transition-opacity duration-500 ease-in-out opacity-100 group-hover:opacity-0 z-10"
+            ></div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- workout start -->
+      <!-- join start -->
+      <section class="py-[40px] md:py-[80px] bg-[#AFFF00]" id="about-us">
+        <div
+          class="max-w-[1680px] flex flex-wrap items-center justify-between mx-auto p-4"
+        >
+          <div class="mx-auto text-center text-[#151515] font-montserrat">
+            <h2 class="text-lg md:text-xl font-medium uppercase">
+              extreme gym
+            </h2>
+            <h3 class="text-3xl md:text-4xl xl:text-5xl font-bold pt-3 pb-8">
+              Join the GYMY – start Today_
+            </h3>
+            <a
+              href="#"
+              class="relative inline-flex items-center justify-center font-bold font-montserrat px-7 py-3 text-[#AFFF00] border-2 bg-[#151515] border-[#151515] hover:border-[#ffffff] group overflow-hidden cursor-pointer"
+            >
+              <span
+                class="absolute inset-0 w-64 h-0 transition-all duration-300 transform origin-center rotate-45 -translate-x-20 bg-[#ffffff] top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease-in-out"
+              ></span>
+              <span
+                class="relative text-[#ffffff] group-hover:text-[#151515] transition-colors duration-300 ease-in-out"
+                >Join Today</span
+              >
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- join end -->
+    </main>
+    <!-- main end -->
+    <!-- footer start -->
+    <footer class="pt-[40px] pb-[30px] md:pt-[60px] md:pb-[30px]">
+      <div class="max-w-[1280px] mx-auto p-4 gap-8 md:gap-0">
+        <div class="grid grid-cols-6 gap-8 md:gap-4 text-white">
+          <!-- left -->
+          <div class="col-span-6 md:col-span-3">
+            <h3
+              class="max-w-[300px] text-3xl md:text-4xl font-montserrat font-semibold capitalize"
+            >
+              Join our active community
+            </h3>
+          </div>
+          <!-- right -->
+          <div
+            class="col-span-6 md:col-span-3 flex flex-col md:flex-row justify-between gap-y-8 md:gap-y-0"
+          >
+            <div class="max-w-[200px]">
+              <h4
+                class="text-xl md:text-2xl mb-3 md:mb-4 font-montserrat font-semibold capitalize"
+              >
+                Address
+              </h4>
+              <h5 class="text-md md:text-lg text-[#969696]">
+                United States — 2586 Broadway, New York, NY 10025, USA
+              </h5>
+              <div class="flex gap-2 pt-4">
+                <a
+                  href="#"
+                  class="flex items-center justify-center border border-gray-600 rounded-full w-10 h-10 group"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      class="fill-white group-hover:fill-[#AFFF00]"
+                      d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4z"
+                    />
+                  </svg>
+                </a>
+                <a
+                  href="#"
+                  class="flex items-center justify-center border border-gray-600 rounded-full w-10 h-10 group"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      class="fill-white group-hover:fill-[#AFFF00]"
+                      d="M18.205 2.25h3.308l-7.227 8.26l8.502 11.24H16.13l-5.214-6.817L4.95 21.75H1.64l7.73-8.835L1.215 2.25H8.04l4.713 6.231zm-1.161 17.52h1.833L7.045 4.126H5.078z"
+                    />
+                  </svg>
+                </a>
+                <a
+                  href="#"
+                  class="flex items-center justify-center border border-gray-600 rounded-full w-10 h-10 group"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      class="fill-white group-hover:fill-[#AFFF00]"
+                      d="M6.94 5a2 2 0 1 1-4-.002a2 2 0 0 1 4 .002M7 8.48H3V21h4zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91z"
+                    />
+                  </svg>
+                </a>
+                <a
+                  href="#"
+                  class="flex items-center justify-center border border-gray-600 rounded-full w-10 h-10 group"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      class="fill-white group-hover:fill-[#AFFF00]"
+                      d="M12.244 4c.534.003 1.87.016 3.29.073l.504.022c1.429.067 2.857.183 3.566.38c.945.266 1.687 1.04 1.938 2.022c.4 1.56.45 4.602.456 5.339l.001.152v.174c-.007.737-.057 3.78-.457 5.339c-.254.985-.997 1.76-1.938 2.022c-.709.197-2.137.313-3.566.38l-.504.023c-1.42.056-2.756.07-3.29.072l-.235.001h-.255c-1.13-.007-5.856-.058-7.36-.476c-.944-.266-1.687-1.04-1.938-2.022c-.4-1.56-.45-4.602-.456-5.339v-.326c.006-.737.056-3.78.456-5.339c.254-.985.997-1.76 1.939-2.021c1.503-.419 6.23-.47 7.36-.476zM9.999 8.5v7l6-3.5z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="max-w-[200px]">
+              <h4
+                class="text-xl md:text-2xl mb-3 md:mb-4 font-montserrat font-semibold capitalize"
+              >
+                Say Hello
+              </h4>
+              <a
+                href="#"
+                class="inline-block text-md md:text-lg hover:text-[#969696]"
+                >info@example.com</a
+              >
+              <a
+                href="#"
+                class="inline-block text-md md:text-lg hover:text-[#969696] pt-4"
+                >+1 840 841 25 69</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="./node_modules/flowbite/dist/flowbite.js"></script>
+    <script type="module" src="./src/main.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

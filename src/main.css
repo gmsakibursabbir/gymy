@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.wordput-bg{
+    background-image: url("../img/shirtless-man.jpg");
+}
